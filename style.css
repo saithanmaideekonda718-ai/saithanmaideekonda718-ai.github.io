@@ -1,7 +1,13 @@
 .header{
             background-color: navy;
             color: white;
-        }
+}
  .footer{
             background-color: aqua;
-        }
+}
+.container{
+    margin:0px;
+}
+*{
+   margin: 0px; 
+ }
