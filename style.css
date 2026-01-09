@@ -1,38 +1,124 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container{
+    margin: 0;
+}
+
+/* Header */
 .header{
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: navy;
     color: white;
 }
- .footer{
-        background-color: gray;
-}
-.container{
-    margin:0px;
-}
-*{
-   margin: 0px; 
- }
- .menu{
+
+/* Menu */
+.menu{
     display: flex;
- }
- .menu li{
+    flex-wrap: wrap;
+}
+
+.menu li{
     list-style: none;
-    margin: 5px;
- }
- .menu li a{
+    margin: 5px 10px;
+}
+
+.menu li a{
     text-decoration: none;
     color: white;
- }
- .image{
+}
+
+/* Common section spacing */
+#home,
+#Services,
+#Projects,
+#Skills,
+#About,
+#Contact{
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+/* Home section */
+#home{
     display: flex;
     justify-content: space-between;
- }
- .box{
-    margin: 10px;
-    padding: 5px;
-    border: 1px black solid;
+    align-items: center;
+    gap: 20px;
+}
 
- }
- 
+.home-img img{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Services section */
+#Services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: peachpuff;
+}
+
+/* Service box */
+.box{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+}
+
+/* Skills section */
+.skills{
+    padding: 20px;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.skills-list li{
+    list-style: none;
+    padding: 10px 20px;
+    border: 1px solid navy;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills-list li:hover{
+    background-color: navy;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Headings spacing */
+h2{
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
