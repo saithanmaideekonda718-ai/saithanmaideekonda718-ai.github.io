@@ -6,4 +6,5 @@ function dispMessage(){
     // alert(c)
     // alert(document.getElementById("txtemail").value)
     lblMessage.innerHTML = document.getElementById("txtemail").value
+    lblMessage1.innerHTML = document.getElementById("txtpassword").value
 }
