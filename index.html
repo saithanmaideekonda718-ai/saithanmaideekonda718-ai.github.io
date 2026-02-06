@@ -3,102 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sai Thanmai Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="container">
-      <div class="header">
-        <h1>Sai thanmai Deekonda</h1>
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Sai Thanmai Deekonda</h1>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="section home-section">
         <div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="#About">About</a></li>
+            <h2>Hello, I'm Sai Thanmai</h2>
+            <p>
+            I am a Computer Science student with strong interest in Machine Learning, Data Structures,
+            and Web Development. I have built AI-based prediction systems and Natural Language Processing
+            projects. I enjoy solving problems, learning new technologies, and building practical
+            applications that connect logic with real-world use cases.
+            </p>
+        </div>
+        <div class="home-img">
+            <img src="girl.jpg" alt="Profile Image">
+        </div>
+    </div>
 
-            </ul>
-        </div>
-      </div>
-      <div>
-        <div id="home" style="display: flex;">
-            <div>
-                <h1>D.Sai thanmai</h1>
-                <p>Hello! I am Sai Thanmai Deekonda, a motivated and enthusiastic student with a strong interest
-                in software development and problem-solving. I enjoy learning new programming concepts and
-                applying them to build simple and effective applications. I am currently focusing on
-                strengthening my skills in web development, data structures, and core programming languages.
-                I love exploring new technologies and improving my logical thinking through practice.
-                My goal is to grow into a confident and skilled software developer.
-                </p>
-            </div>
-            <div class="home-img">
-                <img src="girl.jpg" alt="girl" >
-            </div>
-        </div>
-        <div id="Services" style="display: flex; background-color:peachpuff; justify-content: space-between;" >
-            <div class="box">
-                <h2>Mobile app development</h2>
-                <img src="https://picsum.photos/id/1/300/300" alt="">
-                <p>Mobile app development involves designing and building applications for Android and iOS platforms that provide smooth, user-friendly, and efficient experiences. It combines programming, UI/UX design, and problem-solving to create apps that meet user needs.</p>
-            </div>
-            <div class="box">
-                <h2>Front end development</h2>
-                <img src="https://picsum.photos/id/1/300/300" alt="">
-                <p>Front-end development focuses on creating the visual and interactive parts of a website that users see and interact with. It involves building clean layouts, responsive designs, and smooth user experiences using modern web technologies.</p>
-            </div>
-            <div class="box">
-                <h2>Back end development</h2>
-                <img src="https://picsum.photos/id/1/300/300" alt="">
-                <p>Back-end development deals with the server-side logic of applications, including databases, authentication, and data processing. It ensures that applications run smoothly, securely, and efficiently behind the scenes.</p>
-            </div>
-             
-        </div>
-        <div id="Projects" class="section">
+    <!-- Projects -->
+    <div id="Projects" class="section">
         <h2>Projects</h2>
-        <p>
-        I designed and developed a personal portfolio website using HTML and CSS.
-        The website includes sections such as Home, About, Skills, Services, Projects,
-        and Contact to present my profile in a structured and professional manner.
-        I focused on creating a clean layout, smooth navigation, and interactive
-        user interface elements using CSS. This project helped me understand
-        responsive design concepts and improve my front-end development skills.
-        </p>
+
+        <div class="project-card">
+            <h3>Fake News Detection (NLP + Machine Learning)</h3>
+            <p>Developed a text classification system to detect real vs fake news headlines using TF-IDF
+            vectorization and Logistic Regression. Implemented user-input prediction and evaluated model performance.</p>
         </div>
 
-        <div id="Skills" class="skills">
+        <div class="project-card">
+            <h3>Student Performance Prediction (Machine Learning)</h3>
+            <p>Built a predictive model to estimate student academic performance based on study hours,
+            attendance, previous marks, and sleep patterns. Compared models and visualized performance insights.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Designed and developed a responsive personal portfolio website using HTML and CSS to
+            showcase academic profile, projects, and skills.</p>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="Skills" class="section">
         <h2>Skills</h2>
         <ul class="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>C</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>SQL</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>Machine Learning</li>
+            <li>NLP</li>
+            <li>Data Structures</li>
         </ul>
-        </div>
-
-
-        <div id="About">
-         <h2>About Me</h2>
-        <p>I am a dedicated computer science student who is passionate about learning and self-improvement.
-        I enjoy working on academic and personal projects that help me understand real-world applications
-        of technology. I have a keen interest in web development and problem-solving using programming
-        languages like Java and Python. I believe in continuous learning and always try to improve my
-        coding skills through practice and experimentation. My aim is to build a successful career
-        in the software development field and contribute to meaningful projects.
-        </p>
-    
-        </div>
-        <div id="Contact">
-          <h2>Contact</h2>
-        <p>Email: saithanmaideekonda718@gmail.com</p>
-        <p>Phone: +91 XXXXX XXXXX</p>   
-        </div>
-      </div>
-      <div class="footer">Copyright 2025. All rights reserved.</div>
     </div>
-  </body>
+
+    <!-- About -->
+    <div id="About" class="section">
+        <h2>About Me</h2>
+        <p>
+        I am a dedicated computer science student passionate about AI, software development,
+        and problem solving. I enjoy working on academic and personal projects that help me
+        understand real-world technology applications and continuously improve my skills.
+        </p>
+    </div>
+
+    <!-- Contact -->
+    <div id="Contact" class="section contact">
+        <h2>Contact</h2>
+        <p>Email: saithanmaideekonda718@gmail.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">© 2025 Sai Thanmai Deekonda</div>
+
+</div>
+</body>
 </html>

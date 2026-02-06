@@ -1,124 +1,91 @@
-/* Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Container */
-.container{
-    margin: 0;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* Header */
-.header{
-    padding: 10px 20px;
+.container {
+    width: 100%;
+}
+
+.header {
+    background: navy;
+    color: white;
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: navy;
-    color: white;
 }
 
-/* Menu */
-.menu{
+.menu {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.menu li{
     list-style: none;
-    margin: 5px 10px;
 }
 
-.menu li a{
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
     text-decoration: none;
     color: white;
 }
 
-/* Common section spacing */
-#home,
-#Services,
-#Projects,
-#Skills,
-#About,
-#Contact{
-    padding: 40px 20px;
-    margin-bottom: 30px;
+.section {
+    padding: 50px 20px;
 }
 
-/* Home section */
-#home{
+.home-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
-.home-img img{
-    width: 100%;
+.home-img img {
     max-width: 250px;
-    height: auto;
     border-radius: 10px;
 }
 
-/* Services section */
-#Services{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: peachpuff;
+.project-card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid navy;
 }
 
-/* Service box */
-.box{
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    width: 300px;
-    text-align: center;
-}
-
-.box img{
-    width: 100%;
-    height: auto;
-}
-
-/* Skills section */
-.skills{
-    padding: 20px;
-}
-
-.skills-list{
+.skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 15px;
 }
 
-.skills-list li{
+.skills-list li {
     list-style: none;
     padding: 10px 20px;
     border: 1px solid navy;
     border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    transition: 0.3s;
 }
 
-.skills-list li:hover{
-    background-color: navy;
+.skills-list li:hover {
+    background: navy;
     color: white;
-    transform: scale(1.1);
 }
 
-/* Headings spacing */
-h2{
-    margin-bottom: 15px;
+.contact {
+    background: peachpuff;
 }
 
-/* Footer */
-.footer{
-    background-color: gray;
+.footer {
+    background: gray;
     text-align: center;
     padding: 10px;
+    color: white;
 }
